@@ -3,7 +3,7 @@
 <head>
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<title>Client | createsend-node-ts</title>
+	<title>SendDetail | createsend-node-ts</title>
 	<meta name="description" content="">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="stylesheet" href="../assets/css/main.css">
@@ -56,16 +56,16 @@
 					<a href="../globals.html">Globals</a>
 				</li>
 				<li>
-					<a href="../modules/_index_.html">&quot;index&quot;</a>
+					<a href="../modules/_client_.html">&quot;client&quot;</a>
 				</li>
 				<li>
-					<a href="../modules/_index_.createsendnode.html">CreateSendNode</a>
+					<a href="../modules/_client_.createsendnode.html">CreateSendNode</a>
 				</li>
 				<li>
-					<a href="_index_.createsendnode.client.html">Client</a>
+					<a href="_client_.createsendnode.senddetail.html">SendDetail</a>
 				</li>
 			</ul>
-			<h1>Interface Client</h1>
+			<h1>Interface SendDetail</h1>
 		</div>
 	</div>
 </header>
@@ -76,7 +76,7 @@
 				<h3>Hierarchy</h3>
 				<ul class="tsd-hierarchy">
 					<li>
-						<span class="target">Client</span>
+						<span class="target">SendDetail</span>
 					</li>
 				</ul>
 			</section>
@@ -87,7 +87,9 @@
 						<section class="tsd-index-section ">
 							<h3>Properties</h3>
 							<ul class="tsd-index-list">
-								<li class="tsd-kind-property tsd-parent-kind-interface"><a href="_index_.createsendnode.client.html#transactional" class="tsd-kind-icon">transactional</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-interface"><a href="_client_.createsendnode.senddetail.html#data" class="tsd-kind-icon">data</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-interface"><a href="_client_.createsendnode.senddetail.html#smartemailid" class="tsd-kind-icon">smart<wbr>EmailID</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-interface"><a href="_client_.createsendnode.senddetail.html#to" class="tsd-kind-icon">to</a></li>
 							</ul>
 						</section>
 					</div>
@@ -96,12 +98,32 @@
 			<section class="tsd-panel-group tsd-member-group ">
 				<h2>Properties</h2>
 				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-interface">
-					<a name="transactional" class="tsd-anchor"></a>
-					<h3>transactional</h3>
-					<div class="tsd-signature tsd-kind-icon">transactional<span class="tsd-signature-symbol">:</span> <a href="_index_.createsendnode.transactional.html" class="tsd-signature-type">Transactional</a></div>
+					<a name="data" class="tsd-anchor"></a>
+					<h3>data</h3>
+					<div class="tsd-signature tsd-kind-icon">data<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">any</span></div>
 					<aside class="tsd-sources">
 						<ul>
-							<li>Defined in <a href="https://github.com/hideokamoto/createsend-node-ts/blob/e7e53fc/libs/index.ts#L8">index.ts:8</a></li>
+							<li>Defined in <a href="https://github.com/hideokamoto/createsend-node-ts/blob/6807790/libs/client.ts#L23">client.ts:23</a></li>
+						</ul>
+					</aside>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-interface">
+					<a name="smartemailid" class="tsd-anchor"></a>
+					<h3>smart<wbr>EmailID</h3>
+					<div class="tsd-signature tsd-kind-icon">smart<wbr>EmailID<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">string</span></div>
+					<aside class="tsd-sources">
+						<ul>
+							<li>Defined in <a href="https://github.com/hideokamoto/createsend-node-ts/blob/6807790/libs/client.ts#L20">client.ts:20</a></li>
+						</ul>
+					</aside>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-interface">
+					<a name="to" class="tsd-anchor"></a>
+					<h3>to</h3>
+					<div class="tsd-signature tsd-kind-icon">to<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">string</span></div>
+					<aside class="tsd-sources">
+						<ul>
+							<li>Defined in <a href="https://github.com/hideokamoto/createsend-node-ts/blob/6807790/libs/client.ts#L21">client.ts:21</a></li>
 						</ul>
 					</aside>
 				</section>
@@ -117,29 +139,35 @@
 			</nav>
 			<nav class="tsd-navigation secondary menu-sticky">
 				<ul class="before-current">
+					<li class=" tsd-kind-interface tsd-parent-kind-module">
+						<a href="_client_.createsendnode.client.html" class="tsd-kind-icon">Client</a>
+					</li>
 				</ul>
 				<ul class="current">
 					<li class="current tsd-kind-interface tsd-parent-kind-module">
-						<a href="_index_.createsendnode.client.html" class="tsd-kind-icon">Client</a>
+						<a href="_client_.createsendnode.senddetail.html" class="tsd-kind-icon">Send<wbr>Detail</a>
 						<ul>
 							<li class=" tsd-kind-property tsd-parent-kind-interface">
-								<a href="_index_.createsendnode.client.html#transactional" class="tsd-kind-icon">transactional</a>
+								<a href="_client_.createsendnode.senddetail.html#data" class="tsd-kind-icon">data</a>
+							</li>
+							<li class=" tsd-kind-property tsd-parent-kind-interface">
+								<a href="_client_.createsendnode.senddetail.html#smartemailid" class="tsd-kind-icon">smart<wbr>EmailID</a>
+							</li>
+							<li class=" tsd-kind-property tsd-parent-kind-interface">
+								<a href="_client_.createsendnode.senddetail.html#to" class="tsd-kind-icon">to</a>
 							</li>
 						</ul>
 					</li>
 				</ul>
 				<ul class="after-current">
 					<li class=" tsd-kind-interface tsd-parent-kind-module">
-						<a href="_index_.createsendnode.senddetail.html" class="tsd-kind-icon">Send<wbr>Detail</a>
+						<a href="_client_.createsendnode.sendtransactionalemailresponse.html" class="tsd-kind-icon">Send<wbr>Transactional<wbr>Email<wbr>Response</a>
 					</li>
 					<li class=" tsd-kind-interface tsd-parent-kind-module">
-						<a href="_index_.createsendnode.sendtransactionalemailresponse.html" class="tsd-kind-icon">Send<wbr>Transactional<wbr>Email<wbr>Response</a>
-					</li>
-					<li class=" tsd-kind-interface tsd-parent-kind-module">
-						<a href="_index_.createsendnode.transactional.html" class="tsd-kind-icon">Transactional</a>
+						<a href="_client_.createsendnode.transactional.html" class="tsd-kind-icon">Transactional</a>
 					</li>
 					<li class=" tsd-kind-type-alias tsd-parent-kind-module">
-						<a href="../modules/_index_.createsendnode.html#callback" class="tsd-kind-icon">Callback</a>
+						<a href="../modules/_client_.createsendnode.html#callback" class="tsd-kind-icon">Callback</a>
 					</li>
 				</ul>
 			</nav>
