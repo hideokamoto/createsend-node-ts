@@ -1,8 +1,32 @@
-# TypeScript Package template
+# Campaign Monitor Email Client
 
-GitHub Template repository to create a npm package by using TypeScript.
+Simply Email client for a Campaign Monitor.
+The package is wrapper of the `createsend-node` lib.
 
-## Prepare
+
+## Getting started
+
+```bash
+$ yarn add createsend-node-ts
+```
+
+### Send a Transactional Email
+
+```typescript
+import Client from 'createsend-node-ts'
+
+const client = new Client('YOUR_API_KEY')
+client.sendTransactionalEmai({
+   smartEmailID: 'xxx-xxx-xxx-xxx',
+   to: 'John doe <test@example.com>',
+   data: {
+     firstName: 'John'
+   }
+})
+  .then(result => console.log(result))
+```
+
+## Contribution
 
 ```
 $ git clone git@github.com:hideokamoto/createsend-node-ts.git
