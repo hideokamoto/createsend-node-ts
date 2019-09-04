@@ -80,5 +80,8 @@
     "tslib": "^1.10.0",
     "typedoc": "^0.15.0",
     "typescript": "^3.6.2"
+  },
+  "dependencies": {
+    "createsend-node": "^0.8.2"
   }
 }

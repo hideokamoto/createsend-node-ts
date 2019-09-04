@@ -1,8 +1,8 @@
 
-import func from '../libs/index'
+import Client from '../libs/index'
 
-describe('dummy', () => {
-    it('test', () => {
-        expect(func('John')).toEqual('Hello John !')
-    })
+describe('libs/index.ts', () => {
+  it('should initialize a constructor', () => {
+    expect(() => new Client('API_Key')).not.toThrow()
+  })
 })
