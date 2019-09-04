@@ -1,3 +1,13 @@
+<a name="0.2.0"></a>
+# [0.2.0](https://github.com/hideokamoto/createsend-node-ts/compare/v0.1.2...v0.2.0) (2019-09-04)
+
+
+### Features
+
+* add a response type ([e7e53fc](https://github.com/hideokamoto/createsend-node-ts/commit/e7e53fc))
+
+
+
 <a name="0.1.2"></a>
 ## [0.1.2](https://github.com/hideokamoto/createsend-node-ts/compare/v0.1.1...v0.1.2) (2019-09-04)
 
