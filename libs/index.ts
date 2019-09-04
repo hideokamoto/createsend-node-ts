@@ -45,7 +45,7 @@ export class CampaignMonitorClient {
      * @param {object} details Transactional Email Detail
      */
     // eslint-disable-next-line @typescript-eslint/no-explicit-any
-    public sendTransactionalEmail<T extends CreateSendNode.SendDetail = CreateSendNode.SendDetail> (details: T): Promise<any> | any {
+    public async sendTransactionalEmail<T extends CreateSendNode.SendDetail = CreateSendNode.SendDetail> (details: T): Promise<any> {
       try {
         this.client.transactional.sendSmartEmail(details, (err, res) => {
           console.log('transactional.sendSmartEmail: $j', { err, res })
