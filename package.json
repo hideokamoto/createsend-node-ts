@@ -1,6 +1,6 @@
 {
   "name": "createsend-node-ts",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Typescript wrapper for createsend-node",
   "main": "dist/index.js",
   "engines": {
