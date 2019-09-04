@@ -13,5 +13,6 @@ libs/
 examples/
 .rpt2_cache/
 .huskyrc*
+dev.js
 commitlint.config.js
 .envrc*
