@@ -5,8 +5,8 @@ GitHub Template repository to create a npm package by using TypeScript.
 ## Prepare
 
 ```
-$ git clone YOUR_REPO_URI
-$ cd YOUR_REPO_URI
+$ git clone git@github.com:hideokamoto/createsend-node-ts.git
+$ cd git@github.com:hideokamoto/createsend-node-ts.git
 
 // Put your GitHub Personal Access Token
 $ mv .envrc.example .envrc
@@ -43,8 +43,8 @@ $ git commit -m "<type>[optional scope]: <description>
 
 ```bash
 // clone
-$ git clone git@github.com:hideokamoto/MY_REPO_NAME.git
-$ cd MY_REPO_NAME
+$ git clone git@github.com:hideokamoto/createsend-node-ts.git
+$ cd createsend-node-ts
 
 // setup
 $ yarn
